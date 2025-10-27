@@ -1,4 +1,4 @@
-package microservice.base_source.server_health_api.rest;
+package microservice.base_source.presentation.controller.rest;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/health")
-public class HelloController {
+public class HealthCheckController {
 	
 	@GetMapping
 	public String sayHello() {

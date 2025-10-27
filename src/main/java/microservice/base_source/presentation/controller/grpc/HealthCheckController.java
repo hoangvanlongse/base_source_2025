@@ -1,4 +1,4 @@
-package microservice.base_source.server_health_api.grpc;
+package microservice.base_source.presentation.controller.grpc;
 
 
 import org.springframework.grpc.server.service.GrpcService;
@@ -10,7 +10,7 @@ import com.example.grpcrest.grpc.HelloServiceGrpc.HelloServiceImplBase;
 import io.grpc.stub.StreamObserver;
 
 @GrpcService
-public class HelloGrpcService extends HelloServiceImplBase {
+public class HealthCheckController extends HelloServiceImplBase {
 	@Override
     public void sayHello(HelloRequest request, StreamObserver<HelloResponse> responseObserver) {
         String name = request.getName();

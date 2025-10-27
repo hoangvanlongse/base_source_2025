@@ -1,4 +1,4 @@
-package microservice.base_source.presentation.controller;
+package microservice.base_source.presentation.controller.rest;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
