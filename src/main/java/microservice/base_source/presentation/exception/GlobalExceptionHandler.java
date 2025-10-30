@@ -1,4 +1,4 @@
-package microservice.base_source.exception;
+package microservice.base_source.presentation.exception;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import microservice.base_source.exception.type.OtherException;
+import microservice.base_source.presentation.exception.type.OtherException;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {

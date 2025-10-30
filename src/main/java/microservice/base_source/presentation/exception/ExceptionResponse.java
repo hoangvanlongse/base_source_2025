@@ -1,4 +1,4 @@
-package microservice.base_source.exception;
+package microservice.base_source.presentation.exception;
 
 import java.time.LocalDateTime;
 import java.util.Map;
